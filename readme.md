@@ -5,12 +5,24 @@
 <h3 align="center">Специалисты, которые меняют игру</h3>
 <p align="center">
   Рекрутинговое агентство по подбору IT-специалистов<br/>
-  Все актуальные вакансии мы публикуем отдельными репозиториями со словом <code>job</code>.
+  Все актуальные вакансии публикуем отдельными репозиториями со словом <code>job</code>.
 </p>
 
 <p align="center">
-  👉 <a href="https://github.com/GuitarEmo?tab=repositories&q=job">Смотреть все вакансии</a>
-</p>
+  <a href="https://github.com/GuitarEmo?tab=repositories&q=job">
+    <img
+      src="https://img.shields.io/badge/💼%20Открытые%20вакансии-job%20repos-00D0BF?style=for-the-badge&logo=github&logoColor=white"
+      alt="Открытые вакансии"
+    />
+  </a>
+  <a href="https://github.com/GuitarEmo?tab=repositories&q=post">
+    <img
+      src="https://img.shields.io/badge/📝%20Полезные%20посты-post%20repos-00D0BF?style=for-the-badge&logo=readthedocs&logoColor=white"
+      alt="Полезные посты"
+    />
+  </a>
+
+---
 
 ## Технологии, с которыми мы работаем
 
@@ -77,4 +89,59 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" width="28" alt="Storybook"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" width="28" alt="Trello"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" width="28" alt="Notion"/>
+</p>
+
+---
+
+## Почему WANTED
+
+Мы не просто закрываем вакансии.  
+Мы **ловим лучших специалистов** в тот момент, когда они готовы к изменениям.  
+Мы умеем говорить на одном языке с разработчиками и продактами.  
+И мы знаем: каждая команда заслуживает людей, которые меняют игру.  
+
+---
+
+## Контакты
+
+<p align="center">
+  <a href="https://wanted.ooo">
+    <img
+      src="https://img.shields.io/badge/🌐%20Сайт-wanted.ooo-00D0BF?style=for-the-badge&logo=google-chrome&logoColor=white"
+      alt="Сайт WANTED"
+    />
+  </a>
+  <a href="https://t.me/wanted_hr">
+    <img
+      src="https://img.shields.io/badge/✈️%20Telegram-@wanted_hr-00D0BF?style=for-the-badge&logo=telegram&logoColor=white"
+      alt="Telegram"
+    />
+  </a>
+  <a href="https://linkedin.com/company/wanted">
+    <img
+      src="https://img.shields.io/badge/🔗%20LinkedIn-WANTED-00D0BF?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+  <a href="mailto:hello@wanted.ooo">
+    <img
+      src="https://img.shields.io/badge/📩%20Email-hello@wanted.ooo-00D0BF?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <em>WANTED — специалисты, которые меняют игру</em>
+</p>
+
+- 🚀 Быстро: без долгих процессов и лишней бюрократии  
+- 🎯 Точно: не шлём «список резюме», а приводим подходящих кандидатов  
+- 🌍 Широко: работаем с технологиями от C и Java до Haskell и Elixir  
+- 🤝 Честно: строим партнёрство, а не «галочку»  
+
+---
+
+<p align="center">
+  <em>WANTED — специалисты, которые меняют игру</em>
 </p>
