@@ -1,83 +1,65 @@
-<p align="center">
-  <img src="./wanted.svg" alt="wanted logo" width="500" />
-</p>
-
-<h3 align="center">Специалисты, которые меняют игру</h3>
-<p align="center">
-  Рекрутинговое агентство по подбору IT-специалистов
-</p>
-
-<p align="center">
-  <a href="https://github.com/GuitarEmo/wanted_preview-/stargazers">
-    <img src="https://img.shields.io/github/stars/GuitarEmo/wanted_preview-?style=for-the-badge" alt="Stars">
-  </a>
-  <a href="https://github.com/GuitarEmo/wanted_preview-/issues">
-    <img src="https://img.shields.io/github/issues/GuitarEmo/wanted_preview-?style=for-the-badge" alt="Issues">
-  </a>
-  <img src="https://img.shields.io/badge/license-MIT-00D0BF?style=for-the-badge" alt="License">
-</p>
-
----
-
-## О компании
-
-Мы — **WANTED**, рекрутинговое агентство нового поколения.  
-Не работаем по принципу «эту вакансию не закрываем, а эта дороже».  
-Закрываем **любые позиции в IT** и находим кандидатов в любой точке мира.  
-
-- 🏢 Офисы: Москва и Санкт-Петербург  
-- 🌍 Команда рекрутеров распределена по стране и миру  
-- 🎓 Внутренняя школа рекрутинга  
-- 🎤 Спикеры и участники: Crypto Summit, Job&theCity, Tech Week, Smart City  
-- 🕯️ Свой мерч и линейка свечей «для айтишников»  
-
----
-
-## Наш подход
-
-- 🎯 **Точность** — кандидаты под конкретные задачи  
-- ⚡️ **Скорость** — ловим лучших в нужный момент  
-- 🌱 **Развитие** — обучаем и растим собственных рекрутеров  
-- 🤝 **Партнёрство** — прозрачные процессы  
-
----
-
-## Услуги
-
-- Подбор IT-специалистов любых уровней и направлений  
-- Executive-search для топ-позиций  
-- Массовый найм для продуктовых и сервисных компаний  
-- Консалтинг и аудит HR-процессов  
-
----
-
 ## Закрытые позиции
 
-> Мы закрываем роли **во всём цикле** — от R&D и продукта до эксплуатации, аналитики и руководителей направлений.  
-> Уровни: _Junior → Middle → Senior → Lead → Head_.
+Мы закрывали специалистов по **всем основным ЯП**, редким технологиям и смежным ролям — от junior до head.
 
-**Разработка**  
-`JavaScript` `TypeScript` `React` `Node.js` `Vue` `Angular` `Python` `Django` `FastAPI` `Java` `Spring` `Go` `Rust` `C++` `C#` `.NET` `Kotlin` `Android` `Swift` `iOS` `Ruby` `Rails` `PHP` `Laravel`
+### Разработка (языки)
+<p>
+  <!-- основные -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" alt="Rust" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" alt="Scala" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg" alt="Haskell" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" alt="Elixir" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/erlang/erlang-original.svg" alt="Erlang" width="34"/>
+  <!-- редкие (делаем кастомные круги с буквами F#, R, Perl и т.д.) -->
+  <img src="./fsharp.svg" alt="F#" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg" alt="Perl" width="34"/>
+</p>
 
-**Инфраструктура · Data · Security**  
-`DevOps` `SRE` `Kubernetes` `Docker` `AWS` `GCP` `Terraform` `Ansible` `Linux` `MySQL` `PostgreSQL` `MongoDB` `Redis` `Kafka` `Airflow` `Spark` `Hadoop` `Elasticsearch` `MLOps` `TensorFlow` `PyTorch` `Monitoring`
+### Инфраструктура · Data · Security
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" alt="Airflow" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="34"/>
+</p>
 
-**Тестирование**  
-`QA Manual` `QA Automation` `Selenium` `Cypress` `Playwright` `Jest` `Pytest` `Postman` `Performance` `Security Testing`
+### Тестирование
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypress/cypress-original.svg" alt="Cypress" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" alt="Pytest" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" width="34"/>
+</p>
 
-**Продукт · Менеджмент · Аналитика**  
-`Product` `Project` `Scrum / Kanban` `BA` `DA` `BI` `A/B` `UX/UI` `Figma` `Jira` `Confluence` `Storybook`
-
----
-
-## Контакты
-
-🌐 [wanted.ooo](https://wanted.ooo)  
-✉️ hello@wanted.ooo  
-📍 Москва · Санкт-Петербург · Remote  
-
----
-
-<p align="center">
-  <sub>© 2024 WANTED — специалисты, которые меняют игру</sub>
+### Продукт · Менеджмент · Аналитика
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" alt="Confluence" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" alt="Storybook" width="34"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" alt="Trello" width="34"/>
 </p>
