@@ -1,11 +1,1 @@
-{
-  "schemaVersion": 1,
-  "label": "📝 Полезные посты",
-  "message": "1",
-  "color": "00D0BF",
-  "namedLogo": "readthedocs",
-  "labelColor": "30363d",
-  "style": "for-the-badge",
-  "cacheSeconds": 600,
-  "_updated": "2025-09-02T23:43:58Z"
-}
+{ "schemaVersion": 1, "label": "📝 Полезные посты", "message": "1", "color": "00D0BF" }
