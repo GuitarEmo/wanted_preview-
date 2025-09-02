@@ -17,10 +17,8 @@
     }
   </style>
 
-  <!-- Слово -->
-  <text id="txt" x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" class="wordmark">wanted</text>
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" class="wordmark">wanted</text>
 
-  <!-- Шарик над "a" (центр) -->
-  <!-- Координаты подобраны под Manrope Bold 120px в этом viewBox -->
-  <circle cx="360" cy="62" r="12" fill="#00D0BF"/>
+  <!-- Чуть левее (на ~8px) -->
+  <circle cx="352" cy="62" r="12" fill="#00D0BF"/>
 </svg>
