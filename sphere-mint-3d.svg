@@ -16,19 +16,8 @@
     <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
   </defs>
 
-  <ellipse cx="100" cy="174" rx="60" ry="15" fill="#0b4a3f" opacity=".22" filter="url(#shadow)">
-    <animate attributeName="opacity" values=".22;.12;.22" dur="8s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <g>
-    <animateTransform attributeName="transform" type="translate"
-      values="0 0; 0 -3; 0 0; 0 2; 0 0" dur="8s" repeatCount="indefinite"/>
-
-    <circle cx="100" cy="100" r="88" fill="url(#m_base)"/>
-    <circle cx="100" cy="100" r="88" fill="url(#m_rim)"/>
-    <circle cx="70" cy="66" r="28" fill="url(#m_spec)">
-      <animate attributeName="cx" values="70;72;70;68;70" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="66;64;66;68;66" dur="8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <ellipse cx="100" cy="174" rx="60" ry="15" fill="#0b4a3f" opacity=".22" filter="url(#shadow)"/>
+  <circle cx="100" cy="100" r="88" fill="url(#m_base)"/>
+  <circle cx="100" cy="100" r="88" fill="url(#m_rim)"/>
+  <circle cx="70" cy="66" r="28" fill="url(#m_spec)"/>
 </svg>
