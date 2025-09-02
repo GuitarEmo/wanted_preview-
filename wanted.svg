@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" role="img" aria-label="wanted logo">
   <title>wanted</title>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
-        font-weight="800" font-size="120" fill="#00D0BF" letter-spacing="1">
-    wanted
-  </text>
+  <style>
+    /* Подтягиваем Manrope из файла в этом же каталоге */
+    @font-face{
+      font-family: "ManropeLocal";
+      src: url("./Manrope-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 800;
+      font-style: normal;
+      font-display: swap;
+    }
+    .wordmark{
+      font-family: "ManropeLocal", "Manrope", Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 120px;
+      letter-spacing: 1px;
+      fill: #00D0BF; /* фирменный бирюзовый */
+    }
+  </style>
+
+  <!-- Текст по центру, прозрачный фон -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="wordmark">wanted</text>
 </svg>
