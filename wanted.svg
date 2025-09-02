@@ -1,18 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" role="img" aria-label="wanted logo">
   <title>wanted</title>
   <style>
-    .wordmark {
-      font-family: Manrope, Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-      font-weight: 800;
-      font-size: 120px;
-      fill: #00D0BF;
-      letter-spacing: 1px;
+    @font-face{
+      font-family:"ManropeLocal";
+      src:url("./Manrope-VariableFont_wght.ttf") format("truetype");
+      font-weight:200 800;
+      font-style:normal;
+      font-display:swap;
+    }
+    .wordmark{
+      font-family:"ManropeLocal", Manrope, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight:800;
+      font-size:120px;
+      fill:#00D0BF;
+      letter-spacing:1px;
     }
   </style>
 
-  <!-- Текст логотипа -->
-  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" class="wordmark">wanted</text>
+  <!-- Слово -->
+  <text id="txt" x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" class="wordmark">wanted</text>
 
-  <!-- Шарик над буквой "a" -->
-  <circle cx="360" cy="60" r="14" fill="#00D0BF"/>
+  <!-- Шарик над "a" (центр) -->
+  <!-- Координаты подобраны под Manrope Bold 120px в этом viewBox -->
+  <circle cx="360" cy="62" r="12" fill="#00D0BF"/>
 </svg>
