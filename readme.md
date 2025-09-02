@@ -102,6 +102,15 @@
 
 ---
 
+- 🚀 Быстро: без долгих процессов и лишней бюрократии  
+- 🎯 Точно: не шлём «список резюме», а приводим подходящих кандидатов  
+- 🌍 Широко: работаем с технологиями от C и Java до Haskell и Elixir  
+- 🤝 Честно: строим партнёрство, а не «галочку»  
+
+---
+
+---
+
 ## Контакты
 
 <p align="center">
@@ -111,13 +120,19 @@
       alt="Сайт WANTED"
     />
   </a>
-  <a href="https://t.me/wanted_hr">
+  <a href="https://instagram.com/wanted.ooo">
     <img
-      src="https://img.shields.io/badge/✈️%20Telegram-@wanted_hr-00D0BF?style=for-the-badge&logo=telegram&logoColor=white"
-      alt="Telegram"
+      src="https://img.shields.io/badge/📸%20Instagram-@wanted.ooo-00D0BF?style=for-the-badge&logo=instagram&logoColor=white"
+      alt="Instagram"
     />
   </a>
-  <a href="https://linkedin.com/company/wanted">
+  <a href="https://set.ki/channel/EQ2TjZX">
+    <img
+      src="https://img.shields.io/badge/🟢%20Сетка-Setka-00D0BF?style=for-the-badge&logo=matrix&logoColor=white"
+      alt="Сетка"
+    />
+  </a>
+  <a href="https://www.linkedin.com/company/wanted-recruiting/posts/?feedView=all">
     <img
       src="https://img.shields.io/badge/🔗%20LinkedIn-WANTED-00D0BF?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
@@ -130,17 +145,6 @@
     />
   </a>
 </p>
-
-<p align="center">
-  <em>WANTED — специалисты, которые меняют игру</em>
-</p>
-
-- 🚀 Быстро: без долгих процессов и лишней бюрократии  
-- 🎯 Точно: не шлём «список резюме», а приводим подходящих кандидатов  
-- 🌍 Широко: работаем с технологиями от C и Java до Haskell и Elixir  
-- 🤝 Честно: строим партнёрство, а не «галочку»  
-
----
 
 <p align="center">
   <em>WANTED — специалисты, которые меняют игру</em>
