@@ -1,25 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" width="860" height="180">
-  <!-- Бирюзовый текст -->
-  <text x="240" y="115"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" role="img" aria-label="wanted logo">
+  <title>wanted</title>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
-        font-weight="800" font-size="120" fill="#00D0BF" letter-spacing="1">w</text>
-
-  <text id="a" x="310" y="115"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
-        font-weight="800" font-size="120" fill="#00D0BF" letter-spacing="1">a</text>
-
-  <text x="380" y="115"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
-        font-weight="800" font-size="120" fill="#00D0BF" letter-spacing="1">nted</text>
-
-  <!-- Прыгающее кольцо над "a" -->
-  <circle cx="330" cy="62" r="12" fill="none" stroke="#00D0BF" stroke-width="8"
-          transform="translate(0,-36) scale(0.7)">
-    <animateTransform attributeName="transform" type="translate"
-      dur="0.9s" values="0,-36; 0,0; 0,-6; 0,0" keyTimes="0; .65; .82; 1"
-      calcMode="spline" keySplines=".2 .9 .2 1; .2 .9 .2 1; .2 .9 .2 1" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" additive="sum" type="scale"
-      dur="0.9s" values="0.7; 1; 1; 1" keyTimes="0; .65; .82; 1"
-      calcMode="spline" keySplines=".2 .9 .2 1; .2 .9 .2 1; .2 .9 .2 1" repeatCount="indefinite"/>
-  </circle>
+        font-weight="800" font-size="120" fill="#00D0BF" letter-spacing="1">
+    wanted
+  </text>
 </svg>
