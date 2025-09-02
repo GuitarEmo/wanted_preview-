@@ -1,9 +1,9 @@
 name: Update counters
 
 on:
+  workflow_dispatch:        # запуск вручную из Actions
   schedule:
-    - cron: "0 * * * *"   # раз в час (можно реже)
-  workflow_dispatch:       # запуск вручную
+    - cron: "0 * * * *"     # раз в час (можно реже)
 
 permissions:
   contents: write
@@ -15,31 +15,46 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Count repos
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Compute counts
         env:
           GH_TOKEN: ${{ github.token }}
-          USERNAME: GuitarEmo 
+          USERNAME: GuitarEmo    # ← если нужно, поменяй на свой логин (или org)
         run: |
           set -e
           headers="-H 'Authorization: Bearer $GH_TOKEN' -H 'Accept: application/vnd.github+json'"
 
-          JOBS=$(curl -s https://api.github.com/search/repositories?q=user:$USERNAME+in:name+job $headers | jq -r .total_count)
-          POSTS=$(curl -s https://api.github.com/search/repositories?q=user:$USERNAME+in:name+post $headers | jq -r .total_count)
+          echo "🔎 Поиск репозиториев user:$USERNAME in:name 'job'..."
+          JOBS=$(bash -lc "curl -s https://api.github.com/search/repositories?q=user:$USERNAME+in:name+job $headers | jq -r .total_count")
+          echo "Найдено job-реп: $JOBS"
+
+          echo "🔎 Поиск репозиториев user:$USERNAME in:name 'post'..."
+          POSTS=$(bash -lc "curl -s https://api.github.com/search/repositories?q=user:$USERNAME+in:name+post $headers | jq -r .total_count")
+          echo "Найдено post-реп: $POSTS"
 
           mkdir -p badges
 
           cat > badges/job-count.json <<JSON
-          { "schemaVersion": 1, "label": "💼 Открытые вакансии", "message": "${JOBS}", "color": "00D0BF" }
+          { "schemaVersion": 1, "label": "💼 Открытые вакансии", "message": "$JOBS", "color": "00D0BF" }
           JSON
 
           cat > badges/post-count.json <<JSON
-          { "schemaVersion": 1, "label": "📝 Полезные посты", "message": "${POSTS}", "color": "00D0BF" }
+          { "schemaVersion": 1, "label": "📝 Полезные посты", "message": "$POSTS", "color": "00D0BF" }
           JSON
 
       - name: Commit & Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add badges/*.json
-          git commit -m "update counters" || echo "No changes"
-          git push
+          set -e
+          if ! git diff --quiet; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add badges/*.json
+            git commit -m "chore: update counters (jobs/posts)"
+            git push
+          else
+            echo "No changes"
+          fi
