@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./wanted.svg" alt="wanted logo" width="600" />
+  <img src="https://raw.githubusercontent.com/GuitarEmo/wanted_preview-/main/wanted.svg" alt="wanted logo" width="600" />
 </p>
