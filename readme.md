@@ -11,13 +11,13 @@
 <p align="center">
   <a href="https://github.com/GuitarEmo?tab=repositories&q=job&sort=updated">
     <img
-      src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/GuitarEmo/wanted_preview-/main/badges/job-count.json&style=for-the-badge&logo=github&logoColor=white&cacheSeconds=120&t=now"
+      src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/GuitarEmo/wanted_preview-/main/badges/job-count.json&style=for-the-badge&logo=github&logoColor=white&cacheSeconds=300"
       alt="Открытые вакансии"
     />
   </a>
   <a href="https://github.com/GuitarEmo?tab=repositories&q=post&sort=updated">
     <img
-      src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/GuitarEmo/wanted_preview-/main/badges/post-count.json&style=for-the-badge&logo=readthedocs&logoColor=white&cacheSeconds=120&t=now"
+      src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/GuitarEmo/wanted_preview-/main/badges/post-count.json&style=for-the-badge&logo=readthedocs&logoColor=white&cacheSeconds=300"
       alt="Полезные посты"
     />
   </a>
