@@ -139,7 +139,7 @@
   </a>
   <a href="mailto:hello@wanted.ooo">
     <img
-      src="https://img.shields.io/badge/📩%20Email-hello@wanted.ooo-00D0BF?style=for-the-badge&logo=gmail&logoColor=white"
+      src="https://img.shields.io/badge/📩%20Email-hr@wanted.ooo-00D0BF?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"
     />
   </a>
