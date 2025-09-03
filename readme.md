@@ -137,7 +137,7 @@
       alt="LinkedIn"
     />
   </a>
-  <a href="mailto:hello@wanted.ooo">
+  <a href="mailto:hr@wanted.ooo">
     <img
       src="https://img.shields.io/badge/📩%20Email-hr@wanted.ooo-00D0BF?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"
